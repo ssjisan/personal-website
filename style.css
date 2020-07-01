@@ -9,36 +9,44 @@ section{
 h1{
     font-size: 50px;
 }
-p{
-    padding-bottom: 20px;
-}
+
 /****************************HEADER-START*******************************/
 .header{
     background-image: url("img/header-bg.png");
     background-repeat: no-repeat;
 }
-.name{
-    color:rgb(255, 4, 150); ;
-}
-.half{
+.header-half{
     float: left;
-    width: 40%;
+    width: 35%;
+    padding-left: 5%;
     margin-left: 5%;
-    padding-left: 2%;
 }
 
-.half img{
-    width: 90%;
-    margin-top: 20px;
+.header img{
+    width: 100%;
+    margin-top: 200px;
 }
+.header-text{
+    margin-top: 300px;
+}
+.name{
+    font-size: 60px;
+    color:  #ed4b6f;
 
+}
+.header p{
+    padding-bottom: 50px;
+
+}
 .button{
     text-decoration: none;
-    color: white;
-    background-color: rgb(255, 4, 150);
-    padding: 10px 40px;
+    padding: 10px 25px;
+    background-image: linear-gradient(90deg,#ec4f90, #ed4b6f);
     border-radius: 5px;
+    font-weight: bold;
+    color: white;
 }
+
 /******************************HEADER-END**********************************/
 
 /*******************************BIOGRAPGHY-START***************************/
@@ -47,32 +55,94 @@ p{
     background-image: url("img/biography-bg.png");
     background-repeat: no-repeat;
 }
+.bio-half{
+    float: left;
+    width: 35%;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+.biography img{
+    width: 100%;
+    margin-top: 20px;
+}
+.bio-text{
+    margin-top: 200px;
+}
+.bio-half p{
+    padding-bottom: 50px;
+}
 /*******************************BIOGRAPGHY-END***************************/
 
 /*******************************LATEST-WORK-START***************************/
+
 .latest-work{
     background-image: url("img/latest-work-bg.png");
     background-repeat: no-repeat;
+
 }
-.work{
+.work-half{
+    width: 26%;
     float: left;
-    width: 20%;
-    padding-left: 10%;
+    overflow: hidden;
+    margin-left: 8%;
+    padding-top: 3%;
+    margin-right: -73px;
+    margin-top: -75px;
+    padding-right: -2px;
+}
+.work-image{
+    padding-top: 10%;
 }
 
-.work img{
-    width: 120%;
+.work-half img{
+    width: 100%;
 }
-
-#work-text{
+.latest-work h1{
     text-align: center;
-    padding-bottom: 5%;
 }
 /*******************************LATEST-WORK-END***************************/
 
+/*******************************CLIENT-START***************************/
+.client{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.client h1{
+   text-align: center;
+   padding-bottom: 7%;
+}
+.title{
+    text-align: center;
+}
+.say p{
+    width: 20%;
+    text-align: justify;
+    margin: auto;
+    padding-bottom: 10%;
+}
+.btn{
+    margin: auto;
+    height: 100px;
+    width: 500px;
+    background-image: linear-gradient(90deg,#ec4f90, #ed4b6f);
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.btn a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*******************************CLIENT-END***************************/
+
 /*******************************FOOTER-START***************************/
 
-.last{
-    background-image: url("img/footer-bg.png");
-    background-repeat: no-repeat;
+footer{
+    text-align: center;
 }
